@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+nav{
+    background-color:black ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: ; */
+    padding: 4px 15px 4px 10px;
+    height: auto;
+}
+.dflex{
+display: flex;
+align-items: center;
+}
+.item{
+    padding: 10PX 10PX;
+}
+.item:hover{
+    border: 1px solid#fff;
+    border-radius: 2px;
+    margin: -1px;
+}
+
+.logo{
+text-align: center;
+margin: -10px;
+margin-bottom: -5px;
+padding: 6px 8px 0 0;
+height: 72px    ;
+}
+
+a{
+display: flex;
+text-align: center;
+align-items: center;
+text-decoration: none;
+
+}
+
+a:hover{
+    border: 1px solid white;
+    margin: -1px;
+    border-radius: 3px;
+}
+a span{
+    font-size: 14px;
+    margin-left: -10px;
+}
+p{
+    font-size: 12px;
+    line-height: 12px;
+}
+.item i{
+    padding: 0 5px;
+}
+
+nav input{
+    width: 760px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: black;
+}
+nav buttton{
+    padding: 10px 10px;
+    color: black;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+nav .all{
+    background:white ;
+    border-radius: 5px 0 0 5px;
+    color: black;
+    width: 50px;
+    height: 42px;
+    justify-content: center;
+    margin-top: 1px;
+}
+nav .search{
+    padding: 10px 17px;
+    margin: -2px;
+    background: rgb(247,155, 80);
+    border-radius: 0 5px 5px 0; 
+    height: 42px;
+    margin-top: -1px;
+}
+button.all:hover {
+    border: 3px solid gold;
+}
+
+input[type="text"]:hover {
+    border: 1px solid gold;
+    border-radius: 3px;
+}
+
+nav.subnavbar{
+    background-color:#232f3e;
+    padding: 6px 15px;
+   
+}
+ul.sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+ul.sub li{
+    margin: 5px;
+    list-style: none;
+}
+
+
+/* cards css below */
+.added_cards{
+    display: flex;
+    padding: 5px 15px;
+}
+div.card{
+    width: 25%;
+    height: 400px;
+    border: 3px solid black;
+    margin: 5px;
+    visibility: visible;
+    content: "";
+    /* background-color:black; */
+
+    /* justify-content: space-around; */
+    /* flex-direction: column; */
+}
+
+img {
+    
+    padding: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
